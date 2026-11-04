@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/genaiwithms/genaiwithms/master/assets/dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/genaiwithms/genaiwithms/master/assets/light.svg">
-  <img src="https://raw.githubusercontent.com/genaiwithms/genaiwithms/master/assets/dark.svg" alt="SanaUllah — ML & AI Developer">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/master/assets/dark.svg">
+ <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/master/assets/light.svg">
+  <img src="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/master/assets/dark.svg" alt="SanaUllah — ML & AI Developer">
 </picture>
 
 <br/>
