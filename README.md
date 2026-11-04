@@ -1,16 +1,34 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/genaiwithms/genaiwithms/master/assets/dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/genaiwithms/genaiwithms/master/assets/light.svg">
-  <img src="https://raw.githubusercontent.com/genaiwithms/genaiwithms/master/assets/dark.svg" alt="SanaUllah — ML & AI Developer">
-</picture>
+<div style="background-color: #0d1117; border: 1px solid #30363d; border-radius: 6px; padding: 16px; text-align: left; font-family: monospace; max-width: 700px; color: #c9d1d9;">
+  <div style="display: flex; align-items: center; margin-bottom: 15px; border-bottom: 1px solid #30363d; padding-bottom: 8px;">
+    <span style="height: 12px; width: 12px; background-color: #ff5f56; border-radius: 50%; display: inline-block; margin-right: 6px;"></span>
+    <span style="height: 12px; width: 12px; background-color: #ffbd2e; border-radius: 50%; display: inline-block; margin-right: 6px;"></span>
+    <span style="height: 12px; width: 12px; background-color: #27c93f; border-radius: 50%; display: inline-block; margin-right: 15px;"></span>
+    <span style="color: #8b949e; font-size: 13px;">sanaullah@lahore:~$ whoami</span>
+    <span style="margin-left: auto; color: #27c93f; font-size: 12px;">● LIVE</span>
+  </div>
+
+  <div style="display: flex; gap: 20px; align-items: center; flex-wrap: wrap;">
+    <div style="flex: 0 0 160px; text-align: center;">
+      <img src="https://github.com/sanaullah-mldev.png" width="150" height="150" style="border-radius: 50%; border: 2px solid #30363d; object-fit: cover;" alt="SanaUllah Profile Picture"/>
+      <div style="font-size: 11px; color: #8b949e; margin-top: 6px;">// dithered_portrait.render()</div>
+    </div>
+    <div style="flex: 1; font-size: 13px; line-height: 1.6;">
+      <div style="color: #5ee6b0; font-weight: bold; margin-bottom: 8px; letter-spacing: 0.5px;">SYSTEM.INFO</div>
+      <div style="border-top: 1px solid #30363d; padding-top: 8px;">
+        <div><span style="color: #79c0ff; display: inline-block; width: 90px;">NAME</span> : SanaUllah</div>
+        <div><span style="color: #79c0ff; display: inline-block; width: 90px;">ROLE</span> : ML & AI Developer</div>
+        <div><span style="color: #79c0ff; display: inline-block; width: 90px;">FOCUS</span> : Python · Machine Learning · Deep Learning · GenAI & Agentic AI</div>
+        <div><span style="color: #79c0ff; display: inline-block; width: 90px;">STACK</span> : Python · Pandas · PyTorch · LangChain · LangGraph</div>
+        <div><span style="color: #79c0ff; display: inline-block; width: 90px;">LOCATION</span> : Lahore, Pakistan</div>
+        <div><span style="color: #79c0ff; display: inline-block; width: 90px;">STATUS</span> : <span style="color: #27c93f;">● ONLINE</span></div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <br/>
-
-<img src="https://github.com/sanaullah-mldev.png" width="150" style="border-radius: 50%;" alt="SanaUllah Profile Picture"/>
-
-<br/><br/>
 
 [![GitHub](https://img.shields.io/badge/GitHub-10B981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sanaullah-mldev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sana-ullah-mldev/)
