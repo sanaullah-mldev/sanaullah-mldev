@@ -1,12 +1,18 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/master/assets/dark.svg">
- <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/master/assets/light.svg">
-  <img src="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/master/assets/dark.svg" alt="SanaUllah — ML & AI Developer">
-</picture>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=200&section=header&text=SanaUllah&fontSize=40&fontColor=5ee6b0&desc=ML%20%26%20AI%20Developer%20%7C%20Lahore,%20Pakistan&descSize=18&descAlignY=62" width="100%" />
 
 <br/>
+
+<img src="https://github.com/sanaullah-mldev.png" width="130" style="border-radius: 50%;" alt="SanaUllah Profile Picture"/>
+
+<br/><br/>
+
+[![GitHub](https://img.shields.io/badge/GitHub-10B981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sanaullah-mldev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sana-ullah-mldev/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shinningstarmldeveloper@gmail.com)
+
+</div>
 
 [![GitHub](https://img.shields.io/badge/GitHub-10B981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sanaullah-mldev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sana-ullah-mldev/)
