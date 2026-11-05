@@ -22,9 +22,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/genaiwithms/genaiwithms/master/assets/pipeline-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/genaiwithms/genaiwithms/master/assets/pipeline-light.svg">
-  <img src="https://raw.githubusercontent.com/genaiwithms/genaiwithms/master/assets/pipeline-dark.svg" alt="Runtime RAG pipeline">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/main/assets/pipeline-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/main/assets/pipeline-light.svg">
+  <img src="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/main/assets/pipeline-dark.svg" alt="Runtime RAG pipeline">
 </picture>
 
 </div>
@@ -135,13 +135,12 @@
 </div>
 
 <br/>
-
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/genaiwithms/genaiwithms/master/assets/footer-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/genaiwithms/genaiwithms/master/assets/footer-light.svg">
-  <img src="https://raw.githubusercontent.com/genaiwithms/genaiwithms/master/assets/footer-dark.svg" alt="exit 0 — thanks for stopping by">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/main/assets/footer-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/main/assets/footer-light.svg">
+  <img src="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/main/assets/footer-dark.svg" alt="exit 0 — thanks for stopping by">
 </picture>
 
 </div>
