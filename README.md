@@ -2,6 +2,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/main/assets/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/main/assets/light.svg">
   <img src="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/main/assets/dark.svg" alt="SanaUllah — ML & AI Developer">
 </picture>
 
@@ -24,7 +25,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/main/assets/pipeline-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/main/assets/pipeline-light.svg">
-  <img src="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/main/assets/pipeline-dark.svg" alt="Runtime RAG pipeline">
+  <img src="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/main/assets/pipeline-dark.svg" alt="Runtime RAG pipeline (webhook → condense → retrieve → rerank → generate → reply) and the release gate: component-level, end-to-end, safety and ops evals compared against a baseline">
 </picture>
 
 </div>
@@ -34,78 +35,80 @@
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h3 align="center">📚 RAG & Data Engineering</h3>
-      <p align="center">Structure aware chunking, embeddings matched to the domain, and scalable vector search. 10+ Real Industry Level Python & Data Projects delivered with high reliability.</p>
+      <h3 align="center">📚 RAG that earns its context</h3>
+      <p align="center">Structure aware chunking, embeddings matched to the domain, and a wide vector search narrowed by a reranker. Follow up questions are rewritten with conversation memory, and answers stay grounded or abstain instead of guessing.</p>
     </td>
     <td width="33%" valign="top">
-      <h3 align="center">🤖 Agents & Machine Learning</h3>
-      <p align="center">Stateful, tool-using Agentic AI systems connected via APIs and frameworks. 10+ Machine Learning & Deep Learning end-to-end production models built.</p>
+      <h3 align="center">🤖 Agents that ship to production</h3>
+      <p align="center">Stateful, tool using agents orchestrated as graphs and connected to real systems through MCP servers, APIs and databases. Served with FastAPI behind signed webhooks, with memory, retries and background work, on whatever channel the users already live in.</p>
     </td>
     <td width="33%" valign="top">
-      <h3 align="center">🛡️ GenAI & NLP Pipelines</h3>
-      <p align="center">Advanced NLP systems & Generative AI solutions with guardrails, strict evaluation rubrics, and high-performance inference setups. 10+ NLP & GenAI Projects completed.</p>
+      <h3 align="center">🛡️ Evaluation as a release gate</h3>
+      <p align="center">Every stage of a RAG pipeline or agent is scored in isolation with DeepEval, then end to end with LLM as a judge rubrics. Regressions fail the release. In production, LangSmith scores live traces continuously and alerts on any metric drop.</p>
     </td>
   </tr>
 </table>
 
 <br/>
 
-## 🛠️ Tech Stack & Domain Expertise
+## 🛠️ Tech Stack
 
 <table>
   <tr>
-    <td><b>🐍 Core Language & Tools</b></td>
+    <td><b>🧠 Agents &amp; Frameworks</b></td>
     <td>
 
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
-*(10+ Real Industry Projects)*
+![MCP](https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=modelcontextprotocol&logoColor=white) ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white) ![Semantic Kernel](https://img.shields.io/badge/Semantic%20Kernel-5C2D91?style=for-the-badge)
 
-    </td>
+  </td>
   </tr>
   <tr>
-    <td><b>📊 Machine Learning</b></td>
+    <td><b>🔮 Models &amp; Providers</b></td>
     <td>
 
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white) ![XGBoost](https://img.shields.io/badge/XGBoost-150458?style=for-the-badge) ![Statsmodels](https://img.shields.io/badge/Statsmodels-000000?style=for-the-badge)
-*(10+ Real Industry Projects)*
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge) ![Anthropic](https://img.shields.io/badge/Anthropic-D97757?style=for-the-badge&logo=anthropic&logoColor=white) ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=000000) ![OpenRouter](https://img.shields.io/badge/OpenRouter-6467F2?style=for-the-badge&logo=openrouter&logoColor=white) ![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge) ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
 
-    </td>
+  </td>
   </tr>
   <tr>
-    <td><b>🧠 Deep Learning</b></td>
+    <td><b>📚 RAG &amp; Vector Stores</b></td>
     <td>
 
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
-*(10+ Real Industry Projects)*
+![Pinecone](https://img.shields.io/badge/Pinecone-1C17FF?style=for-the-badge) ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6446?style=for-the-badge) ![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white) ![Weaviate](https://img.shields.io/badge/Weaviate-00A98F?style=for-the-badge)
 
-    </td>
+  </td>
   </tr>
   <tr>
-    <td><b>🔤 Natural Language Processing (NLP)</b></td>
+    <td><b>🛡️ Eval, Guardrails &amp; Observability</b></td>
     <td>
 
-![NLTK](https://img.shields.io/badge/NLTK-150458?style=for-the-badge) ![spaCy](https://img.shields.io/badge/spaCy-09A3D5?style=for-the-badge&logo=spacy&logoColor=white) ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=000000)
-*(10+ Real Industry Projects)*
+![DeepEval](https://img.shields.io/badge/DeepEval-7C3AED?style=for-the-badge) ![LLM-as-a-Judge](https://img.shields.io/badge/LLM--as--a--Judge-7C3AED?style=for-the-badge) ![Custom Guardrails](https://img.shields.io/badge/Custom%20Guardrails-B91C1C?style=for-the-badge) ![LangSmith](https://img.shields.io/badge/LangSmith-F47B20?style=for-the-badge)
 
-    </td>
+  </td>
   </tr>
   <tr>
-    <td><b>🔮 Generative AI</b></td>
+    <td><b>⚙️ Backend &amp; APIs</b></td>
     <td>
 
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white) ![LlamaIndex](https://img.shields.io/badge/LlamaIndex-000000?style=for-the-badge) ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
-*(10+ Real Industry Projects)*
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white) ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 
-    </td>
+  </td>
   </tr>
   <tr>
-    <td><b>🤖 Agentic AI & Frameworks</b></td>
+    <td><b>🗄️ Data</b></td>
     <td>
 
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white) ![CrewAI](https://img.shields.io/badge/CrewAI-FF4B4B?style=for-the-badge) ![MCP](https://img.shields.io/badge/MCP-000000?style=for-the-badge)
-*(10+ Real Industry Projects)*
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
-    </td>
+  </td>
+  </tr>
+  <tr>
+    <td><b>☁️ Cloud &amp; DevOps</b></td>
+    <td>
+
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge) ![Docker](https://img.shields.io/badge/Docker-0DB7ED?style=for-the-badge&logo=docker&logoColor=white) ![Podman](https://img.shields.io/badge/Podman-892CA0?style=for-the-badge&logo=podman&logoColor=white) ![Linux VPS](https://img.shields.io/badge/Linux%20VPS-FCC624?style=for-the-badge&logo=linux&logoColor=000000) ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white) ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+
+  </td>
   </tr>
 </table>
 
@@ -135,6 +138,7 @@
 </div>
 
 <br/>
+
 <div align="center">
 
 <picture>
