@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/main/assets/dark.svg?sanitize=true" alt="SanaUllah System Info" width="100%">
+<img src="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/main/assets/dark.svg?v=3" alt="SanaUllah System Info" width="100%">
 
 <br/><br/>
 
