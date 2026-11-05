@@ -1,85 +1,82 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" width="100%" height="100%">
-  <style>
-    .bg { fill: #0d1117; rx: 12px; }
-    .header-bar { fill: #161b22; rx: 12px 12px 0 0; }
-    .dot-red { fill: #ff5f56; }
-    .dot-yellow { fill: #ffbd2e; }
-    .dot-green { fill: #27c93f; }
-    .title { fill: #8b949e; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px; font-weight: 600; }
-    .live-dot { fill: #27c93f; }
-    .live-text { fill: #27c93f; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 12px; font-weight: bold; }
-    .section-header { fill: #388bfd; font-family: "Courier New", Courier, monospace; font-size: 14px; font-weight: bold; letter-spacing: 1px; }
-    .label { fill: #388bfd; font-family: "Courier New", Courier, monospace; font-size: 13px; font-weight: bold; letter-spacing: 1px; }
-    .text { fill: #c9d1d9; font-family: "Courier New", Courier, monospace; font-size: 13px; }
-    .subtext { fill: #8b949e; font-family: "Courier New", Courier, monospace; font-size: 11px; }
-    .command { fill: #388bfd; font-family: "Courier New", Courier, monospace; font-size: 13px; }
-    .cursor { fill: #388bfd; animation: blink 1s infinite; }
-    .portrait-box { fill: #0d1117; stroke: #30363d; stroke-width: 1; rx: 8px; }
-    .pixel { fill: #388bfd; }
-    
-    .moving-border {
-      fill: none;
-      stroke: #5ee6b0;
-      stroke-width: 2.5;
-      stroke-dasharray: 200 1000;
-      stroke-dashoffset: 1200;
-      rx: 12px;
-      animation: borderMove 4s linear infinite;
-    }
-    @keyframes borderMove {
-      0% { stroke-dashoffset: 1200; }
-      100% { stroke-dashoffset: 0; }
-    }
-    @keyframes blink { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0; } }
-  </style>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; rx: 12px; }
+      .header-bar { fill: #161b22; rx: 12px 12px 0 0; }
+      .dot-red { fill: #ff5f56; }
+      .dot-yellow { fill: #ffbd2e; }
+      .dot-green { fill: #27c93f; }
+      .title-text { fill: #8b949e; font-family: 'Courier New', monospace; font-size: 13px; }
+      
+      .border-line {
+        fill: none;
+        stroke: #388bfd;
+        stroke-width: 2;
+        rx: 12px;
+        stroke-dasharray: 200 800;
+        animation: borderMove 4s linear infinite;
+      }
 
-  <rect width="900" height="380" class="bg" stroke="#30363d" stroke-width="1" />
-  <rect width="900" height="380" class="moving-border" />
-  <rect width="900" height="35" class="header-bar" />
+      .text-green { fill: #27c93f; font-family: 'Courier New', monospace; font-size: 13px; font-weight: bold; }
+      .text-blue { fill: #388bfd; font-family: 'Courier New', monospace; font-size: 13px; font-weight: bold; }
+      .text-purple { fill: #bc8cff; font-family: 'Courier New', monospace; font-size: 13px; }
+      .text-white { fill: #c9d1d9; font-family: 'Courier New', monospace; font-size: 13px; }
+      .text-gray { fill: #8b949e; font-family: 'Courier New', monospace; font-size: 13px; }
+
+      .cursor { fill: #5ee6b0; animation: blink 1s infinite; }
+
+      @keyframes borderMove {
+        0% { stroke-dashoffset: 1000; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes blink { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0; } }
+    </style>
+  </defs>
+
+  <!-- Card Background -->
+  <rect width="900" height="320" class="bg" stroke="#30363d" stroke-width="1" />
   
+  <!-- Moving Outer Border Light -->
+  <rect width="900" height="320" class="border-line" />
+
+  <!-- Terminal Header Bar -->
+  <rect width="900" height="35" class="header-bar" />
   <circle cx="25" cy="17" r="6" class="dot-red" />
   <circle cx="45" cy="17" r="6" class="dot-yellow" />
   <circle cx="65" cy="17" r="6" class="dot-green" />
-  
-  <text x="450" y="21" text-anchor="middle" class="title">sanaullah@lahore:~$ whoami</text>
-  <circle cx="850" cy="17" r="5" class="live-dot" />
-  <text x="835" y="21" text-anchor="end" class="live-text">LIVE</text>
+  <text x="450" y="22" text-anchor="middle" class="title-text">sanaullah@lahore:~$ neofetch --system-info</text>
 
-  <rect x="40" y="60" width="220" height="230" class="portrait-box" />
-  
-  <g class="pixel" opacity="0.85">
-    <rect x="110" y="90" width="80" height="15" rx="3" />
-    <rect x="100" y="105" width="100" height="20" rx="3" />
-    <rect x="115" y="125" width="70" height="60" rx="5" fill="#58a6ff" />
-    <rect x="130" y="140" width="12" height="10" fill="#0d1117" />
-    <rect x="158" y="140" width="12" height="10" fill="#0d1117" />
-    <rect x="125" y="170" width="50" height="20" rx="2" />
-    <path d="M 70 260 C 70 210, 230 210, 230 260 Z" fill="#388bfd" />
+  <!-- Left Side Avatar Container -->
+  <rect x="35" y="60" width="200" height="230" fill="#161b22" rx="10" stroke="#30363d" stroke-width="1" />
+  <circle cx="135" cy="145" r="70" fill="#388bfd" opacity="0.2" />
+  <text x="135" y="150" font-family="&#39;Courier New&#39;, monospace" font-size="40" fill="#5ee6b0" text-anchor="middle" font-weight="bold">AI</text>
+  <text x="135" y="260" font-family="&#39;Courier New&#39;, monospace" font-size="12" fill="#8b949e" text-anchor="middle">SanaUllah | ML Dev</text>
+
+  <!-- Right Side System Info List -->
+  <g transform="translate(260, 50)">
+    <text x="0" y="30" class="text-green">OS:</text>
+    <text x="120" y="30" class="text-white">Ubuntu 24.04 LTS x86_64 (Lahore, PK)</text>
+
+    <text x="0" y="55" class="text-green">Host:</text>
+    <text x="120" y="55" class="text-white">SanaUllah Rustmani</text>
+
+    <text x="0" y="80" class="text-green">Role:</text>
+    <text x="120" y="80" class="text-blue">Machine Learning & AI Developer</text>
+
+    <text x="0" y="105" class="text-green">Core Stack:</text>
+    <text x="120" y="105" class="text-purple">Python | GenAI | Agentic AI | RAG</text>
+
+    <text x="0" y="130" class="text-green">Frameworks:</text>
+    <text x="120" y="130" class="text-white">LangChain, LangGraph, PyTorch, FastAPI</text>
+
+    <text x="0" y="155" class="text-green">Status:</text>
+    <text x="120" y="155" class="text-white">Building Industry-Level AI Systems</text>
+
+    <text x="0" y="180" class="text-green">Uptime:</text>
+    <text x="120" y="180" class="text-white">100% Scholarship @ Lahore College</text>
+
+    <text x="0" y="215" class="text-blue">sanaullah@lahore:~$</text>
+    <text x="180" y="215" class="text-gray">echo "Ready to innovate"</text>
+    <rect x="345" y="202" width="8" height="15" class="cursor" />
   </g>
-  <text x="150" y="305" text-anchor="middle" class="subtext">// dithered_portrait.render()</text>
-
-  <text x="310" y="80" class="section-header">SYSTEM.INFO</text>
-  <line x1="310" y1="92" x2="840" y2="92" stroke="#21262d" stroke-width="1" />
-
-  <text x="310" y="120" class="label">NAME</text>
-  <text x="420" y="120" class="text">: SanaUllah</text>
-
-  <text x="310" y="150" class="label">ROLE</text>
-  <text x="420" y="150" class="text">: ML & AI Developer</text>
-
-  <text x="310" y="180" class="label">FOCUS</text>
-  <text x="420" y="180" class="text">: Python · Machine Learning · Deep Learning · Gen AI</text>
-
-  <text x="310" y="210" class="label">STACK</text>
-  <text x="420" y="210" class="text">: Python · PyTorch · LangChain · LangGraph</text>
-
-  <text x="310" y="240" class="label">LOCATION</text>
-  <text x="420" y="240" class="text">: Lahore, Pakistan</text>
-
-  <text x="310" y="270" class="label">STATUS</text>
-  <circle cx="427" cy="266" r="4" class="live-dot" />
-  <text x="440" y="270" class="text" fill="#27c93f" font-weight="bold">ONLINE</text>
-
-  <text x="310" y="335" class="command">$ build_ai_systems_that_are_reliable_and_secure</text>
-  <rect x="735" y="323" width="8" height="15" class="cursor" />
 </svg>

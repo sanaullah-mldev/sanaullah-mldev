@@ -1,7 +1,8 @@
 <div align="center">
 
-# SanaUllah
-### 🚀 ML & AI Developer | Python & Deep Learning Enthusiast
+<img src="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/main/assets/dark.svg" alt="SanaUllah System Info" width="100%">
+
+<br/><br/>
 
 [![GitHub](https://img.shields.io/badge/GitHub-10B981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sanaullah-mldev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sana-ullah-mldev/)
@@ -17,10 +18,7 @@
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/pipeline-dark.svg">
-  <img src="assets/pipeline-dark.svg" alt="Runtime RAG pipeline">
-</picture>
+<img src="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/main/assets/pipeline-dark.svg" alt="Runtime RAG pipeline" width="100%">
 
 </div>
 
@@ -131,8 +129,5 @@
 <br/>
 
 <div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg">
-  <img src="assets/footer-dark.svg" alt="exit 0 — thanks for stopping by">
-</picture>
+<img src="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/main/assets/footer-dark.svg" alt="exit 0 — thanks for stopping by" width="100%">
 </div>
