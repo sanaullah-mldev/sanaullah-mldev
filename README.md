@@ -1,11 +1,8 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/dark.svg">
-  <img src="assets/dark.svg" alt="SanaUllah — ML & AI Developer">
-</picture>
+<img src="./assets/dark.svg" alt="SanaUllah — ML & AI Developer" width="100%">
 
-<br/>
+<br/><br/>
 
 [![GitHub](https://img.shields.io/badge/GitHub-10B981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sanaullah-mldev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sana-ullah-mldev/)
