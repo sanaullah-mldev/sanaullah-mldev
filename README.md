@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/dark.svg" alt="SanaUllah System Info" width="100%">
+<img src="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/main/assets/dark.svg" alt="SanaUllah System Info" width="100%">
 
 <br/><br/>
 
@@ -18,7 +18,7 @@
 
 <div align="center">
 
-<img src="assets/pipeline-dark.svg" alt="Runtime RAG pipeline" width="100%">
+<img src="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/main/assets/pipeline-dark.svg" alt="Runtime RAG pipeline" width="100%">
 
 </div>
 
@@ -129,5 +129,5 @@
 <br/>
 
 <div align="center">
-<img src="assets/footer-dark.svg" alt="exit 0 — thanks for stopping by" width="100%">
+<img src="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/main/assets/footer-dark.svg" alt="exit 0 — thanks for stopping by" width="100%">
 </div>
