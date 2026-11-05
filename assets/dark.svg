@@ -8,15 +8,15 @@
       .dot-green { fill: #27c93f; }
       .title-text { fill: #8b949e; font-family: 'Courier New', monospace; font-size: 13px; }
       
-      /* Extremely clear and smooth 4-side moving border animation */
+      /* Smooth 4-side moving border animation */
       .border-line {
         fill: none;
         stroke: #388bfd;
-        stroke-width: 3;
+        stroke-width: 2.5;
         rx: 12px;
-        stroke-dasharray: 250 1800;
-        animation: borderMove 3s linear infinite;
-        filter: drop-shadow(0 0 8px rgba(56, 139, 253, 0.9));
+        stroke-dasharray: 300 2200;
+        animation: borderMove 4s linear infinite;
+        filter: drop-shadow(0 0 6px rgba(56, 139, 253, 0.8));
       }
 
       .text-green { fill: #27c93f; font-family: 'Courier New', monospace; font-size: 13px; font-weight: bold; }
@@ -26,22 +26,22 @@
       .text-gray { fill: #8b949e; font-family: 'Courier New', monospace; font-size: 12px; }
 
       .cursor { fill: #5ee6b0; animation: blink 1s infinite; }
-      .live-dot { fill: #27c93f; animation: pulse 1.5s infinite; }
+      .live-dot { fill: #27c93f; animation: pulse 2s infinite; }
       
       /* Live Portrait Effects */
       .portrait-box { fill: #161b22; rx: 10px; stroke: #30363d; stroke-width: 1; }
-      .portrait-group { animation: portraitGlow 2s ease-in-out infinite alternate; }
-      .scan-line { fill: #388bfd; opacity: 0.8; animation: scanMove 1.8s linear infinite; }
+      .portrait-group { animation: portraitGlow 2.5s ease-in-out infinite alternate; }
+      .scan-line { fill: #58a6ff; opacity: 0.6; animation: scanMove 2s linear infinite; }
 
       @keyframes borderMove {
-        0% { stroke-dashoffset: 2050; }
+        0% { stroke-dashoffset: 2500; }
         100% { stroke-dashoffset: 0; }
       }
       @keyframes blink { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0; } }
-      @keyframes pulse { 0% { opacity: 0.2; } 50% { opacity: 1; } 100% { opacity: 0.2; } }
+      @keyframes pulse { 0% { opacity: 0.3; } 50% { opacity: 1; } 100% { opacity: 0.3; } }
       @keyframes portraitGlow {
-        0% { filter: drop-shadow(0 0 4px rgba(56, 139, 253, 0.5)); }
-        100% { filter: drop-shadow(0 0 12px rgba(56, 139, 253, 1)); }
+        0% { filter: drop-shadow(0 0 3px rgba(56, 139, 253, 0.4)); }
+        100% { filter: drop-shadow(0 0 10px rgba(56, 139, 253, 0.9)); }
       }
       @keyframes scanMove {
         0% { transform: translateY(0px); }
@@ -52,10 +52,10 @@
   </defs>
 
   <!-- Card Background -->
-  <rect width="900" height="320" class="bg" stroke="#30363d" stroke-width="1" />
+  <rect width="900" height="380" class="bg" stroke="#30363d" stroke-width="1" />
   
-  <!-- Moving Outer Border Light (Clear & Visible on all 4 sides) -->
-  <rect width="900" height="320" class="border-line" />
+  <!-- Moving Outer Border Light -->
+  <rect width="900" height="380" class="border-line" />
 
   <!-- Terminal Header Bar -->
   <rect width="900" height="35" class="header-bar" />
@@ -69,10 +69,10 @@
   <text x="845" y="21" class="text-green" font-size="11px">LIVE</text>
 
   <!-- Left Side Avatar Box -->
-  <rect x="35" y="50" width="220" height="240" class="portrait-box" />
+  <rect x="35" y="50" width="220" height="300" class="portrait-box" />
   
   <!-- Dithered Portrait with Live Scanning & Glow Movement -->
-  <g class="portrait-group" transform="translate(60, 65)">
+  <g class="portrait-group" transform="translate(60, 85)">
     <!-- Head/Hair Pixels -->
     <rect x="50" y="10" width="70" height="15" fill="#1f6feb" rx="3" />
     <rect x="40" y="20" width="90" height="25" fill="#1f6feb" rx="4" />
@@ -90,35 +90,35 @@
     <rect x="15" y="0" width="140" height="3" class="scan-line" rx="1" />
   </g>
 
-  <text x="145" y="272" class="text-gray" text-anchor="middle">// dithered_portrait.render()</text>
-  <circle cx="45" cy="278" r="3" fill="#bc8cff" />
+  <text x="145" y="325" class="text-gray" text-anchor="middle">// dithered_portrait.render()</text>
+  <circle cx="45" cy="331" r="3" fill="#bc8cff" />
 
   <!-- Right Side System Info List -->
-  <g transform="translate(280, 50)">
+  <g transform="translate(280, 55)">
     <text x="0" y="25" class="text-blue">SYSTEM. INFO</text>
     <line x1="0" y1="35" x2="580" y2="35" stroke="#30363d" stroke-width="1" />
 
-    <text x="0" y="65" class="text-blue">NAME</text>
-    <text x="110" y="65" class="text-white">: SanaUllah Rustmani</text>
+    <text x="0" y="70" class="text-blue">NAME</text>
+    <text x="110" y="70" class="text-white">: SanaUllah Rustmani</text>
 
-    <text x="0" y="95" class="text-blue">ROLE</text>
-    <text x="110" y="95" class="text-white">: Machine Learning & AI Developer</text>
+    <text x="0" y="105" class="text-blue">ROLE</text>
+    <text x="110" y="105" class="text-white">: Machine Learning & AI Developer</text>
 
-    <text x="0" y="125" class="text-blue">FOCUS</text>
-    <text x="110" y="125" class="text-white">: AI Agents . RAG . GenAI & MLOps</text>
+    <text x="0" y="140" class="text-blue">FOCUS</text>
+    <text x="110" y="140" class="text-white">: AI Agents & RAG & GenAI & MLOps</text>
 
-    <text x="0" y="155" class="text-blue">STACK</text>
-    <text x="110" y="155" class="text-white">: Python . PyTorch . LangGraph . FastAPI</text>
+    <text x="0" y="175" class="text-blue">STACK</text>
+    <text x="110" y="175" class="text-white">: Python & PyTorch & LangGraph & FastAPI</text>
 
-    <text x="0" y="185" class="text-blue">LOCATION</text>
-    <text x="110" y="185" class="text-white">: Lahore, Pakistan</text>
+    <text x="0" y="210" class="text-blue">LOCATION</text>
+    <text x="110" y="210" class="text-white">: Lahore, Pakistan</text>
 
-    <text x="0" y="215" class="text-blue">STATUS</text>
-    <circle cx="114" cy="211" r="4" fill="#27c93f" />
-    <text x="130" y="215" class="text-white">ONLINE</text>
+    <text x="0" y="245" class="text-blue">STATUS</text>
+    <circle cx="114" cy="241" r="4" fill="#27c93f" />
+    <text x="130" y="245" class="text-white">ONLINE</text>
 
-    <text x="0" y="260" class="text-gray">$</text>
-    <text x="20" y="260" class="text-white">build_ai_systems_that_are_reliable_and_secure</text>
-    <rect x="375" y="247" width="8" height="15" class="cursor" />
+    <text x="0" y="295" class="text-gray">$</text>
+    <text x="20" y="295" class="text-white">build_ai_systems_that_are_reliable_and_secure</text>
+    <rect x="375" y="282" width="8" height="15" class="cursor" />
   </g>
 </svg>
