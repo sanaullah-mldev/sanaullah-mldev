@@ -33,26 +33,20 @@
     </style>
   </defs>
 
-  <!-- Card Background -->
   <rect width="900" height="320" class="bg" stroke="#30363d" stroke-width="1" />
-  
-  <!-- Moving Outer Border Light -->
   <rect width="900" height="320" class="border-line" />
 
-  <!-- Terminal Header Bar -->
   <rect width="900" height="35" class="header-bar" />
   <circle cx="25" cy="17" r="6" class="dot-red" />
   <circle cx="45" cy="17" r="6" class="dot-yellow" />
   <circle cx="65" cy="17" r="6" class="dot-green" />
   <text x="450" y="22" text-anchor="middle" class="title-text">sanaullah@lahore:~$ neofetch --system-info</text>
 
-  <!-- Left Side Avatar Box -->
   <rect x="35" y="60" width="200" height="230" fill="#161b22" rx="10" stroke="#30363d" stroke-width="1" />
   <circle cx="135" cy="145" r="70" fill="#388bfd" opacity="0.2" />
   <text x="135" y="150" font-family="&#39;Courier New&#39;, monospace" font-size="40" fill="#5ee6b0" text-anchor="middle" font-weight="bold">AI</text>
   <text x="135" y="260" font-family="&#39;Courier New&#39;, monospace" font-size="12" fill="#8b949e" text-anchor="middle">SanaUllah | ML Dev</text>
 
-  <!-- Right Side System Info List -->
   <g transform="translate(260, 50)">
     <text x="0" y="30" class="text-green">OS:</text>
     <text x="120" y="30" class="text-white">Ubuntu 24.04 LTS x86_64 (Lahore, PK)</text>

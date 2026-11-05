@@ -43,16 +43,10 @@
     }
   </style>
 
-  <!-- Background horizontal track line -->
   <line x1="50" y1="20" x2="850" y2="20" class="moving-line" />
-
-  <!-- Moving glowing light line -->
   <line x1="50" y1="20" x2="850" y2="20" class="animated-glow" />
-
-  <!-- Moving glowing dot point at the edge of the line -->
   <circle cx="50" cy="20" r="4" class="dot-glow" />
 
-  <!-- Terminal Footer Text with Blinking Cursor -->
   <text x="315" y="55" class="command">
     <tspan class="dollar">$</tspan> exit 0 <tspan class="hash">#</tspan> thanks for stopping by
   </text>

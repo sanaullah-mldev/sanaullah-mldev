@@ -1,12 +1,14 @@
-<p align="center">
-  <img src="assets/dark.svg" alt="SanaUllah System Info" width="100%" />
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://github.com/sanaullah-mldev"><img src="https://img.shields.io/badge/GitHub-10B981?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/sana-ullah-mldev/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:shinningstarmldeveloper@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-</p>
+<img src="assets/dark.svg" alt="SanaUllah System Info" width="100%">
+
+<br/><br/>
+
+[![GitHub](https://img.shields.io/badge/GitHub-10B981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sanaullah-mldev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sana-ullah-mldev/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shinningstarmldeveloper@gmail.com)
+
+</div>
 
 > *"The future belongs to those who can master the art of conversation with machines."*  **SanaUllah**
 
@@ -14,9 +16,11 @@
 
 ## 🧬 How I Build AI Systems
 
-<p align="center">
-  <img src="assets/pipeline-dark.svg" alt="Runtime RAG pipeline" width="100%" />
-</p>
+<div align="center">
+
+<img src="assets/pipeline-dark.svg" alt="Runtime RAG pipeline" width="100%">
+
+</div>
 
 <br/>
 
@@ -104,17 +108,26 @@
 
 ## 📊 GitHub Activity
 
-<p align="center">
-  <img height="170" src="https://github-readme-stats-theta-rust-54.vercel.app/api?username=sanaullah-mldev&include_all_commits=true&count_private=true&v=3&show_icons=true&bg_color=0d1117&title_color=5ee6b0&text_color=c9d1d9&icon_color=79c0ff&border_color=30363d" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats-theta-rust-54.vercel.app/api/top-langs/?username=sanaullah-mldev&include_all_commits=true&count_private=true&v=3&layout=compact&bg_color=0d1117&title_color=5ee6b0&text_color=c9d1d9&icon_color=79c0ff&border_color=30363d" alt="Top languages" />
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://github-readme-streak-six.vercel.app/?user=sanaullah-mldev&background=0d1117&border=30363d&stroke=30363d&ring=5ee6b0&fire=5ee6b0&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=5ee6b0&sideLabels=79c0ff&dates=6e7681&v=3" alt="GitHub streak" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-theta-rust-54.vercel.app/api?username=sanaullah-mldev&include_all_commits=true&count_private=true&v=3&show_icons=true&bg_color=0d1117&title_color=5ee6b0&text_color=c9d1d9&icon_color=79c0ff&border_color=30363d">
+  <img height="170" src="https://github-readme-stats-theta-rust-54.vercel.app/api?username=sanaullah-mldev&include_all_commits=true&count_private=true&v=3&show_icons=true&bg_color=0d1117&title_color=5ee6b0&text_color=c9d1d9&icon_color=79c0ff&border_color=30363d" alt="GitHub stats">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-theta-rust-54.vercel.app/api/top-langs/?username=sanaullah-mldev&include_all_commits=true&count_private=true&v=3&layout=compact&bg_color=0d1117&title_color=5ee6b0&text_color=c9d1d9&icon_color=79c0ff&border_color=30363d">
+  <img height="170" src="https://github-readme-stats-theta-rust-54.vercel.app/api/top-langs/?username=sanaullah-mldev&include_all_commits=true&count_private=true&v=3&layout=compact&bg_color=0d1117&title_color=5ee6b0&text_color=c9d1d9&icon_color=79c0ff&border_color=30363d" alt="Top languages">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-six.vercel.app/?user=sanaullah-mldev&background=0d1117&border=30363d&stroke=30363d&ring=5ee6b0&fire=5ee6b0&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=5ee6b0&sideLabels=79c0ff&dates=6e7681&v=3">
+  <img src="https://github-readme-streak-six.vercel.app/?user=sanaullah-mldev&background=0d1117&border=30363d&stroke=30363d&ring=5ee6b0&fire=5ee6b0&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=5ee6b0&sideLabels=79c0ff&dates=6e7681&v=3" alt="GitHub streak">
+</picture>
+
+</div>
 
 <br/>
 
-<p align="center">
-  <img src="assets/footer-dark.svg" alt="exit 0 — thanks for stopping by" width="100%" />
-</p>
+<div align="center">
+<img src="assets/footer-dark.svg" alt="exit 0 — thanks for stopping by" width="100%">
+</div>
