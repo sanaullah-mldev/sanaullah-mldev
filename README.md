@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/dark.svg" alt="SanaUllah — ML & AI Developer" width="100%">
+<img src="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/main/assets/dark.svg" alt="SanaUllah — ML & AI Developer" width="100%">
 
 <br/><br/>
 
