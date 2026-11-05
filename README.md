@@ -1,10 +1,7 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/main/assets/dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/main/assets/light.svg">
-  <img src="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/main/assets/dark.svg" alt="SanaUllah — ML & AI Developer">
-</picture>
+# Hi there, I'm SanaUllah 👋
+### **ML & AI Developer**
 
 <br/>
 
@@ -19,18 +16,6 @@
 <br/>
 
 ## 🧬 How I Build AI Systems
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/main/assets/pipeline-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/main/assets/pipeline-light.svg">
-  <img src="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/main/assets/pipeline-dark.svg" alt="Runtime RAG pipeline (webhook → condense → retrieve → rerank → generate → reply) and the release gate: component-level, end-to-end, safety and ops evals compared against a baseline">
-</picture>
-
-</div>
-
-<br/>
 
 <table>
   <tr>
@@ -138,13 +123,6 @@
 </div>
 
 <br/>
-
 <div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/main/assets/footer-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/main/assets/footer-light.svg">
-  <img src="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/main/assets/footer-dark.svg" alt="exit 0 — thanks for stopping by">
-</picture>
-
+  <h3>exit 0 — thanks for stopping by 🚀</h3>
 </div>
