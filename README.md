@@ -1,62 +1,9 @@
 <div align="center">
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" width="100%" height="100%">
-  <style>
-    .bg { fill: #0d1117; rx: 12px; }
-    .header-bar { fill: #161b22; rx: 12px 12px 0 0; }
-    .dot-red { fill: #ff5f56; }
-    .dot-yellow { fill: #ffbd2e; }
-    .dot-green { fill: #27c93f; }
-    .title { fill: #8b949e; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px; font-weight: 600; }
-    .live-dot { fill: #27c93f; }
-    .live-text { fill: #27c93f; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 12px; font-weight: bold; }
-    .label { fill: #5ee6b0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 14px; font-weight: bold; }
-    .text { fill: #c9d1d9; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 14px; }
-    .command { fill: #79c0ff; font-family: "Courier New", Courier, monospace; font-size: 14px; }
-    .cursor { fill: #5ee6b0; animation: blink 1s infinite; }
-    @keyframes blink { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0; } }
-  </style>
-
-  <!-- Background Box -->
-  <rect width="900" height="380" class="bg" stroke="#30363d" stroke-width="1"/>
-  <rect width="900" height="35" class="header-bar" />
-  
-  <!-- Window Dots -->
-  <circle cx="25" cy="17" r="6" class="dot-red" />
-  <circle cx="45" cy="17" r="6" class="dot-yellow" />
-  <circle cx="65" cy="17" r="6" class="dot-green" />
-  
-  <!-- Window Title -->
-  <text x="450" y="21" text-anchor="middle" class="title">sanaullah@lahore:~$ whoami</text>
-  
-  <!-- Live Indicator -->
-  <circle cx="855" cy="17" r="5" class="live-dot" />
-  <text x="840" y="21" text-anchor="end" class="live-text">LIVE</text>
-
-  <!-- System Info -->
-  <text x="50" y="75" class="label">NAME</text>
-  <text x="160" y="75" class="text">: SanaUllah</text>
-
-  <text x="50" y="110" class="label">ROLE</text>
-  <text x="160" y="110" class="text">: ML &amp; AI Developer</text>
-
-  <text x="50" y="145" class="label">FOCUS</text>
-  <text x="160" y="145" class="text">: Python · Machine Learning · Deep Learning · NLP · Gen AI &amp; Agentic AI</text>
-
-  <text x="50" y="180" class="label">STACK</text>
-  <text x="160" y="180" class="text">: Python · PyTorch · TensorFlow · LangChain · LangGraph</text>
-
-  <text x="50" y="215" class="label">LOCATION</text>
-  <text x="160" y="215" class="text">: Lahore, Pakistan</text>
-
-  <text x="50" y="250" class="label">STATUS</text>
-  <circle cx="167" cy="246" r="4" class="live-dot" />
-  <text x="180" y="250" class="text" fill="#27c93f" font-weight="bold">ONLINE</text>
-
-  <!-- Terminal Command Line with blinking cursor -->
-  <text x="50" y="320" class="command">$ build_ai_systems_that_are_reliable_and_secure</text>
-  <rect x="525" y="307" width="10" height="16" class="cursor" />
-</svg>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark.svg">
+  <img src="assets/dark.svg" alt="SanaUllah — ML & AI Developer">
+</picture>
 
 <br/>
 
@@ -66,11 +13,22 @@
 
 </div>
 
-> *"The future belongs to those who can master the art of conversation with machines."* **SanaUllah**
+> *"The future belongs to those who can master the art of conversation with machines."*  **SanaUllah**
 
 <br/>
 
 ## 🧬 How I Build AI Systems
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/pipeline-dark.svg">
+  <img src="assets/pipeline-dark.svg" alt="Runtime RAG pipeline">
+</picture>
+
+</div>
+
+<br/>
 
 <table>
   <tr>
@@ -160,24 +118,25 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-theta-rust-54.vercel.app/api?username=sanaullah-mldev&include_all_commits=true&count_private=true&v=3&show_icons=true&bg_color=0d1117&title_color=5ee6b0&text_color=c9d1d9&icon_color=79c0ff&border_color=30363d">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-theta-rust-54.vercel.app/api?username=sanaullah-mldev&include_all_commits=true&count_private=true&v=3&show_icons=true&bg_color=ffffff&title_color=0969da&text_color=24292f&icon_color=8250df&border_color=d0d7de">
   <img height="170" src="https://github-readme-stats-theta-rust-54.vercel.app/api?username=sanaullah-mldev&include_all_commits=true&count_private=true&v=3&show_icons=true&bg_color=0d1117&title_color=5ee6b0&text_color=c9d1d9&icon_color=79c0ff&border_color=30363d" alt="GitHub stats">
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-theta-rust-54.vercel.app/api/top-langs/?username=sanaullah-mldev&include_all_commits=true&count_private=true&v=3&layout=compact&bg_color=0d1117&title_color=5ee6b0&text_color=c9d1d9&icon_color=79c0ff&border_color=30363d">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-theta-rust-54.vercel.app/api/top-langs/?username=sanaullah-mldev&include_all_commits=true&count_private=true&v=3&layout=compact&bg_color=ffffff&title_color=0969da&text_color=24292f&icon_color=8250df&border_color=d0d7de">
   <img height="170" src="https://github-readme-stats-theta-rust-54.vercel.app/api/top-langs/?username=sanaullah-mldev&include_all_commits=true&count_private=true&v=3&layout=compact&bg_color=0d1117&title_color=5ee6b0&text_color=c9d1d9&icon_color=79c0ff&border_color=30363d" alt="Top languages">
 </picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-six.vercel.app/?user=sanaullah-mldev&background=0d1117&border=30363d&stroke=30363d&ring=5ee6b0&fire=5ee6b0&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=5ee6b0&sideLabels=79c0ff&dates=6e7681&v=3">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-six.vercel.app/?user=sanaullah-mldev&background=ffffff&border=d0d7de&stroke=d0d7de&ring=0969da&fire=0969da&currStreakNum=24292f&sideNums=24292f&currStreakLabel=0969da&sideLabels=8250df&dates=57606a&v=3">
   <img src="https://github-readme-streak-six.vercel.app/?user=sanaullah-mldev&background=0d1117&border=30363d&stroke=30363d&ring=5ee6b0&fire=5ee6b0&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=5ee6b0&sideLabels=79c0ff&dates=6e7681&v=3" alt="GitHub streak">
 </picture>
 
 </div>
 
 <br/>
+
 <div align="center">
-  <h3>exit 0 — thanks for stopping by 🚀</h3>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg">
+  <img src="assets/footer-dark.svg" alt="exit 0 — thanks for stopping by">
+</picture>
 </div>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 80" width="100%" height="100%">
+  <style>
+    .moving-line {
+      fill: none;
+      stroke: #30363d;
+      stroke-width: 2;
+    }
+    .animated-glow {
+      fill: none;
+      stroke: #8a63d2;
+      stroke-width: 2.5;
+      stroke-linecap: round;
+      stroke-dasharray: 100 800;
+      animation: slideLine 3s linear infinite;
+    }
+    .dot-glow {
+      fill: #8a63d2;
+      animation: dotMove 3s linear infinite;
+    }
+    .command {
+      fill: #8b949e;
+      font-family: "Courier New", Courier, monospace;
+      font-size: 13px;
+    }
+    .dollar { fill: #c9d1d9; font-weight: bold; }
+    .hash { fill: #8a63d2; font-weight: bold; }
+    .cursor {
+      fill: #388bfd;
+      animation: blink 1s infinite;
+    }
+
+    @keyframes slideLine {
+      0% { stroke-dashoffset: 900; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes dotMove {
+      0% { transform: translateX(900px); }
+      100% { transform: translateX(0px); }
+    }
+    @keyframes blink {
+      0%, 50% { opacity: 1; }
+      51%, 100% { opacity: 0; }
+    }
+  </style>
+
+  <!-- Background horizontal track line -->
+  <line x1="50" y1="20" x2="850" y2="20" class="moving-line" />
+
+  <!-- Moving glowing light line -->
+  <line x1="50" y1="20" x2="850" y2="20" class="animated-glow" />
+
+  <!-- Moving glowing dot point at the edge of the line -->
+  <circle cx="50" cy="20" r="4" class="dot-glow" />
+
+  <!-- Terminal Footer Text with Blinking Cursor -->
+  <text x="315" y="55" class="command">
+    <tspan class="dollar">$</tspan> exit 0 <tspan class="hash">#</tspan> thanks for stopping by
+  </text>
+  <rect x="585" y="43" width="8" height="15" class="cursor" />
+</svg>
