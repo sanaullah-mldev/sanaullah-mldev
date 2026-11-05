@@ -1,26 +1,101 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="100%" height="100%">
-  <style>
-    .bg { fill: #0d1117; rx: 12px; }
-    .header-bar { fill: #161b22; rx: 12px 12px 0 0; }
-    .dot-red { fill: #ff5f56; }
-    .dot-yellow { fill: #ffbd2e; }
-    .dot-green { fill: #27c93f; }
-    .title { fill: #8b949e; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px; font-weight: 600; }
-    .live-dot { fill: #27c93f; animation: pulse 2s infinite; }
-    .live-text { fill: #27c93f; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 12px; font-weight: bold; }
-    
-    .box { fill: #161b22; stroke: #30363d; stroke-width: 1.5; rx: 6px; }
-    .box-active { fill: #161b22; stroke: #388bfd; stroke-width: 2; rx: 6px; }
-    .box-pass { fill: #161b22; stroke: #27c93f; stroke-width: 2; rx: 6px; }
-    
-    .code-comment { fill: #8b949e; font-family: "Courier New", Courier, monospace; font-size: 13px; }
-    .node-title { fill: #388bfd; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 12px; font-weight: bold; text-anchor: middle; }
-    .node-title-pass { fill: #27c93f; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 12px; font-weight: bold; text-anchor: middle; }
-    .node-desc { fill: #8b949e; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 10px; text-anchor: middle; }
-    .arrow { fill: #8b949e; font-family: monospace; font-size: 14px; font-weight: bold; }
+  <defs>
+    <style>
+      .bg { fill: #0d1117; rx: 12px; }
+      .header-bar { fill: #161b22; rx: 12px 12px 0 0; }
+      .dot-red { fill: #ff5f56; }
+      .dot-yellow { fill: #ffbd2e; }
+      .dot-green { fill: #27c93f; }
+      .title { fill: #8b949e; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px; font-weight: 600; }
+      .live-dot { fill: #27c93f; animation: pulse 2s infinite; }
+      .live-text { fill: #27c93f; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 12px; font-weight: bold; }
+      
+      .box { fill: #161b22; stroke: #30363d; stroke-width: 1.5; rx: 6px; }
+      .box-pass { fill: #161b22; stroke: #27c93f; stroke-width: 2; rx: 6px; }
+      
+      .code-comment { fill: #8b949e; font-family: "Courier New", Courier, monospace; font-size: 13px; }
+      .node-title { fill: #388bfd; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 12px; font-weight: bold; text-anchor: middle; }
+      .node-title-pass { fill: #27c93f; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 12px; font-weight: bold; text-anchor: middle; }
+      .node-desc { fill: #8b949e; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 10px; text-anchor: middle; }
+      .arrow { fill: #8b949e; font-family: monospace; font-size: 14px; font-weight: bold; }
 
-    @keyframes pulse { 0% { opacity: 1; } 50% { opacity: 0.4; } 100% { opacity: 1; } }
-  </style>
+      /* Sequential Running Animations for Row 1 (Webhook to Reply) */
+      @keyframes activeNode1 {
+        0%, 15%, 100% { stroke: #30363d; fill: #161b22; }
+        3%, 10% { stroke: #388bfd; stroke-width: 2; fill: #1f242c; }
+      }
+      @keyframes activeNode2 {
+        0%, 15%, 30%, 100% { stroke: #30363d; fill: #161b22; }
+        18%, 25% { stroke: #388bfd; stroke-width: 2; fill: #1f242c; }
+      }
+      @keyframes activeNode3 {
+        0%, 30%, 45%, 100% { stroke: #30363d; fill: #161b22; }
+        33%, 40% { stroke: #388bfd; stroke-width: 2; fill: #1f242c; }
+      }
+      @keyframes activeNode4 {
+        0%, 45%, 60%, 100% { stroke: #30363d; fill: #161b22; }
+        48%, 55% { stroke: #388bfd; stroke-width: 2; fill: #1f242c; }
+      }
+      @keyframes activeNode5 {
+        0%, 60%, 75%, 100% { stroke: #30363d; fill: #161b22; }
+        63%, 70% { stroke: #388bfd; stroke-width: 2; fill: #1f242c; }
+      }
+      @keyframes activeNode6 {
+        0%, 75%, 90%, 100% { stroke: #30363d; fill: #161b22; }
+        78%, 85% { stroke: #388bfd; stroke-width: 2; fill: #1f242c; }
+      }
+
+      /* Sequential Running Animations for Row 2 (Component to Pass) */
+      @keyframes activeRow2_1 {
+        0%, 20%, 100% { stroke: #30363d; fill: #161b22; }
+        3%, 15% { stroke: #388bfd; stroke-width: 2; fill: #1f242c; }
+      }
+      @keyframes activeRow2_2 {
+        0%, 20%, 45%, 100% { stroke: #30363d; fill: #161b22; }
+        25%, 40% { stroke: #388bfd; stroke-width: 2; fill: #1f242c; }
+      }
+      @keyframes activeRow2_3 {
+        0%, 45%, 70%, 100% { stroke: #30363d; fill: #161b22; }
+        50%, 65% { stroke: #388bfd; stroke-width: 2; fill: #1f242c; }
+      }
+      @keyframes activeRow2_4 {
+        0%, 70%, 90%, 100% { stroke: #30363d; fill: #161b22; }
+        75%, 85% { stroke: #388bfd; stroke-width: 2; fill: #1f242c; }
+      }
+      @keyframes activePass {
+        0%, 85%, 100% { stroke: #27c93f; fill: #161b22; }
+        88%, 98% { stroke: #27c93f; stroke-width: 2.5; fill: #1b2e20; }
+      }
+
+      .n1 { animation: activeNode1 6s infinite; }
+      .n2 { animation: activeNode2 6s infinite; }
+      .n3 { animation: activeNode3 6s infinite; }
+      .n4 { animation: activeNode4 6s infinite; }
+      .n5 { animation: activeNode5 6s infinite; }
+      .n6 { animation: activeNode6 6s infinite; }
+
+      .r2-1 { animation: activeRow2_1 8s infinite; }
+      .r2-2 { animation: activeRow2_2 8s infinite; }
+      .r2-3 { animation: activeRow2_3 8s infinite; }
+      .r2-4 { animation: activeRow2_4 8s infinite; }
+      .r2-pass { animation: activePass 8s infinite; }
+
+      /* Dynamic changing text animation at the bottom line */
+      @keyframes dynamicText {
+        0% { opacity: 0; transform: translateY(4px); }
+        5% { opacity: 1; transform: translateY(0); }
+        28% { opacity: 1; transform: translateY(0); }
+        33% { opacity: 0; transform: translateY(-4px); }
+        100% { opacity: 0; }
+      }
+
+      .dyn-1 { animation: dynamicText 12s infinite 0s; }
+      .dyn-2 { animation: dynamicText 12s infinite 4s; }
+      .dyn-3 { animation: dynamicText 12s infinite 8s; }
+
+      @keyframes pulse { 0% { opacity: 1; } 50% { opacity: 0.4; } 100% { opacity: 1; } }
+    </style>
+  </defs>
 
   <rect width="900" height="300" class="bg" stroke="#30363d" stroke-width="1" />
   <rect width="900" height="35" class="header-bar" />
@@ -33,72 +108,105 @@
   <circle cx="845" cy="17" r="5" class="live-dot" />
   <text x="830" y="21" text-anchor="end" class="live-text">RUNNING</text>
 
-  <text x="30" y="65" class="code-comment"># runtime · rag_pipeline.invoke()</text>
+  <!-- LINE 1: Runtime Pipeline -->
+  <text x="30" y="62" class="code-comment"># runtime · rag_pipeline.invoke()</text>
 
-  <rect x="30" y="80" width="115" height="50" class="box" />
-  <text x="87" y="102" class="node-title">WEBHOOK</text>
-  <text x="87" y="118" class="node-desc">HMAC verified</text>
+  <!-- Row 1 Nodes (Webhook to Reply with running animation) -->
+  <g transform="translate(30, 75)">
+    <rect width="115" height="45" class="box n1" />
+    <text x="57" y="20" class="node-title">WEBHOOK</text>
+    <text x="57" y="36" class="node-desc">HMAC verified</text>
+  </g>
+  <text x="155" y="103" class="arrow">></text>
 
-  <text x="155" y="110" class="arrow">></text>
+  <g transform="translate(175, 75)">
+    <rect width="115" height="45" class="box n2" />
+    <text x="57" y="20" class="node-title">CONDENSE</text>
+    <text x="57" y="36" class="node-desc">memory · rewrite</text>
+  </g>
+  <text x="300" y="103" class="arrow">></text>
 
-  <rect x="175" y="80" width="115" height="50" class="box" />
-  <text x="232" y="102" class="node-title">CONDENSE</text>
-  <text x="232" y="118" class="node-desc">memory · rewrite</text>
+  <g transform="translate(320, 75)">
+    <rect width="115" height="45" class="box n3" />
+    <text x="57" y="20" class="node-title">RETRIEVE</text>
+    <text x="57" y="36" class="node-desc">vectors · top 10</text>
+  </g>
+  <text x="445" y="103" class="arrow">></text>
 
-  <text x="300" y="110" class="arrow">></text>
+  <g transform="translate(465, 75)">
+    <rect width="115" height="45" class="box n4" />
+    <text x="57" y="20" class="node-title">RERANK</text>
+    <text x="57" y="36" class="node-desc">cross-enc · top 3</text>
+  </g>
+  <text x="590" y="103" class="arrow">></text>
 
-  <rect x="320" y="80" width="115" height="50" class="box-active" />
-  <text x="377" y="102" class="node-title">RETRIEVE</text>
-  <text x="377" y="118" class="node-desc">vectors · top 10</text>
+  <g transform="translate(610, 75)">
+    <rect width="115" height="45" class="box n5" />
+    <text x="57" y="20" class="node-title">GENERATE</text>
+    <text x="57" y="36" class="node-desc">grounded prompt</text>
+  </g>
+  <text x="735" y="103" class="arrow">></text>
 
-  <text x="445" y="110" class="arrow">></text>
+  <g transform="translate(755, 75)">
+    <rect width="115" height="45" class="box n6" />
+    <text x="57" y="20" class="node-title">REPLY</text>
+    <text x="57" y="36" class="node-desc">WhatsApp</text>
+  </g>
 
-  <rect x="465" y="80" width="115" height="50" class="box" />
-  <text x="522" y="102" class="node-title">RERANK</text>
-  <text x="522" y="118" class="node-desc">cross-enc · top 3</text>
+  <!-- LINE 2: Release Gate -->
+  <text x="30" y="148" class="code-comment"># release gate · evaluated per component, then end-to-end, with an LLM judge</text>
 
-  <text x="590" y="110" class="arrow">></text>
+  <!-- Row 2 Nodes (Component to Pass with running animation) -->
+  <g transform="translate(30, 160)">
+    <rect width="170" height="45" class="box r2-1" />
+    <text x="85" y="20" class="node-title">COMPONENT</text>
+    <text x="85" y="36" class="node-desc">retriever · generator</text>
+  </g>
+  <text x="210" y="188" class="arrow">></text>
 
-  <rect x="610" y="80" width="115" height="50" class="box" />
-  <text x="667" y="102" class="node-title">GENERATE</text>
-  <text x="667" y="118" class="node-desc">grounded prompt</text>
+  <g transform="translate(230, 160)">
+    <rect width="170" height="45" class="box r2-2" />
+    <text x="85" y="20" class="node-title">END-TO-END</text>
+    <text x="85" y="36" class="node-desc">RAG triad · GEval</text>
+  </g>
+  <text x="410" y="188" class="arrow">></text>
 
-  <text x="735" y="110" class="arrow">></text>
+  <g transform="translate(430, 160)">
+    <rect width="170" height="45" class="box r2-3" />
+    <text x="85" y="20" class="node-title">SAFETY + OPS</text>
+    <text x="85" y="36" class="node-desc">leakage · PII · p95 · cost</text>
+  </g>
+  <text x="610" y="188" class="arrow">></text>
 
-  <rect x="755" y="80" width="115" height="50" class="box" />
-  <text x="812" y="102" class="node-title">REPLY</text>
-  <text x="812" y="118" class="node-desc">WhatsApp</text>
+  <g transform="translate(630, 160)">
+    <rect width="110" height="45" class="box r2-4" />
+    <text x="55" y="20" class="node-title">COMPARE</text>
+    <text x="55" y="36" class="node-desc">vs baseline</text>
+  </g>
+  <text x="750" y="188" class="arrow">></text>
 
-  <text x="30" y="165" class="code-comment"># release gate · evaluated per component, then end-to-end, with an LLM judge</text>
+  <g transform="translate(770, 160)">
+    <rect width="100" height="45" class="box-pass r2-pass" />
+    <text x="50" y="20" class="node-title-pass">PASS</text>
+    <text x="50" y="36" class="node-desc">gate → ship</text>
+  </g>
 
-  <rect x="30" y="180" width="170" height="50" class="box" />
-  <text x="115" y="202" class="node-title">COMPONENT</text>
-  <text x="115" y="218" class="node-desc">retriever · generator</text>
-
-  <text x="210" y="210" class="arrow">></text>
-
-  <rect x="230" y="180" width="170" height="50" class="box" />
-  <text x="315" y="202" class="node-title">END-TO-END</text>
-  <text x="315" y="218" class="node-desc">RAG triad · GEval</text>
-
-  <text x="410" y="210" class="arrow">></text>
-
-  <rect x="430" y="180" width="170" height="50" class="box" />
-  <text x="515" y="202" class="node-title">SAFETY + OPS</text>
-  <text x="515" y="218" class="node-desc">leakage · PII · p95 · cost</text>
-
-  <text x="610" y="210" class="arrow">></text>
-
-  <rect x="630" y="180" width="110" height="50" class="box" />
-  <text x="685" y="202" class="node-title">COMPARE</text>
-  <text x="685" y="218" class="node-desc">vs baseline</text>
-
-  <text x="750" y="210" class="arrow">></text>
-
-  <rect x="770" y="180" width="100" height="50" class="box-pass" />
-  <text x="820" y="202" class="node-title-pass">PASS</text>
-  <text x="820" y="218" class="node-desc">gate → ship</text>
-
-  <text x="30" y="265" fill="#388bfd" font-family="monospace" font-size="11px">[generator]</text>
-  <text x="110" y="265" fill="#c9d1d9" font-family="monospace" font-size="11px">GEval: correctness · completeness · style</text>
+  <!-- LINE 3: Dynamic Changing Text Line at Bottom -->
+  <g transform="translate(30, 235)">
+    <!-- Set 1 -->
+    <g class="dyn-1">
+      <text x="0" y="0" fill="#388bfd" font-family="monospace" font-size="11px">[retriever]</text>
+      <text x="85" y="0" fill="#c9d1d9" font-family="monospace" font-size="11px">contextual recall · precision ≥ 0.7</text>
+    </g>
+    <!-- Set 2 -->
+    <g class="dyn-2">
+      <text x="0" y="0" fill="#388bfd" font-family="monospace" font-size="11px">[generator]</text>
+      <text x="85" y="0" fill="#c9d1d9" font-family="monospace" font-size="11px">GEval: correctness · completeness · style</text>
+    </g>
+    <!-- Set 3 -->
+    <g class="dyn-3">
+      <text x="0" y="0" fill="#388bfd" font-family="monospace" font-size="11px">[judge_llm]</text>
+      <text x="95" y="0" fill="#c9d1d9" font-family="monospace" font-size="11px">faithfulness · answer relevance · latency</text>
+    </g>
+  </g>
 </svg>
