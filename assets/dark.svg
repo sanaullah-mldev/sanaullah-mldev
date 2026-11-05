@@ -46,7 +46,7 @@
   <circle cx="65" cy="17" r="6" class="dot-green" />
   <text x="450" y="22" text-anchor="middle" class="title-text">sanaullah@lahore:~$ neofetch --system-info</text>
 
-  <!-- Left Side Avatar Container -->
+  <!-- Left Side Avatar Box -->
   <rect x="35" y="60" width="200" height="230" fill="#161b22" rx="10" stroke="#30363d" stroke-width="1" />
   <circle cx="135" cy="145" r="70" fill="#388bfd" opacity="0.2" />
   <text x="135" y="150" font-family="&#39;Courier New&#39;, monospace" font-size="40" fill="#5ee6b0" text-anchor="middle" font-weight="bold">AI</text>
