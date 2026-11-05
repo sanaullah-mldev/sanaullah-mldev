@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/main/assets/dark.svg" onerror="this.onerror=null; this.src='https://raw.githubusercontent.com/sanaullah-mldev/sanaullah-mldev/master/assets/dark.svg';" alt="SanaUllah System Info" width="100%">
+<img src="assets/dark.svg" alt="SanaUllah System Info" width="100%">
 
 <br/><br/>
 
